@@ -1,0 +1,87 @@
+.cards__wrapper {
+  margin-top: 35px;
+  gap: 30px;
+}
+
+.card {
+  max-width: 216px;
+  height: 436px;
+  border: 0.7px solid rgba(129, 123, 116, 0.7);
+  padding: 8px 9px 13px 8px;
+  border-radius: 0;
+  &__title {
+    color: #000000;
+    font-family: Istok Web, sans-serif;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-bottom: 14px;
+  }
+  &__info__title {
+    h3 {
+      line-height: 17.308px;
+      color: #000;
+      font-family: Rubik, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
+.card__info {
+  display: flex;
+  gap: 6px;
+}
+.card__info__title__verify {
+  display: flex;
+  gap: 5px;
+  color: #f90;
+  font-family: Rubik, sans-serif;
+  font-size: 11px;
+
+  &::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: block;
+    background: url('../../icons/verify.png');
+  }
+}
+.card__rare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.card__rare__type {
+  width: 90px;
+  height: 21px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #ffc107, #ec851a) border-box;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  color: #000;
+  font-family: Rubik, sans-serif;
+  text-align: center;
+  font-size: 11px;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+  margin-bottom: 6px;
+}
+.card__price__digit {
+  width: 76px;
+  height: 21px;
+  border-radius: 7px;
+  background: #fdd446;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+  padding-top: 3px;
+  font-size: 11px;
+}
+.card__button {
+  margin: auto;
+}

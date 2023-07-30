@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>title</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script async src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper row align-items-center">
+          <div class="header__logo col">
+            <img src="./img/logo.png" alt="tnft.ru logotype" />
+          </div>
+          <div class="header__search col">
+            <input
+              class="header__search__input search"
+              type="text"
+              placeholder="Поиск..."
+            />
+          </div>
+          <div class="header__buttons col-5">
+            <button class="btn">Вход</button>
+            <button class="btn btn_solidBg">Регистрация</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="firstLight"></div>
+        <div class="secondLight"></div>
+
+        <div class="filters row align-items-center">
+          <div class="filters__buttons col">
+            <button class="btn btn_filters fw_400">Фильтры</button>
+          </div>
+          <div class="search search_326 col">
+            <input
+              class="header__search__input search"
+              type="text"
+              placeholder="Поиск..."
+            />
+          </div>
+          <div class="filters__select col">
+            <select class="btn fw_400 btn_select" name="select">
+              <option value="default">По умолчанию</option>
+              <option value="asc">по возростанию</option>
+              <option value="desc">по убыванию</option>
+            </select>
+          </div>
+        </div>
+        <div class="cards__wrapper row justify-content-center">
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__photo">
+              <img src="./img/cardphoto.png" alt="celebrity" />
+            </div>
+            <h3 class="card__title">Без слов</h3>
+            <div class="card__info">
+              <div class="card__info__img">
+                <img src="./img/cardsubphoto.png" alt="celebrity" />
+              </div>
+              <div class="card__info__title row">
+                <h3>Настя Ивлеева Вячеславовна</h3>
+                <div class="card__info__title__verify">проверено</div>
+              </div>
+            </div>
+            <div class="card__rare">
+              <div>Редкость:</div>
+              <div class="card__rare__type">уникальная</div>
+            </div>
+            <div class="card__price">
+              <div>Цена:</div>
+              <div class="card__price__digit">от 500 ₽</div>
+            </div>
+            <div class="card__button">
+              <button class="btn btn_buy">Купить</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <ul class="pagination__list fw_700">
+            <li class="paginatino_active">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__light"></div>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__info row">
+            <div class="nft col-md-4">
+              <h3 class="footer__title">NFT</h3>
+              <div class="footer__nft__info__list">
+                <h4 class="footer__title_second">Что такое NFT</h4>
+                <h4 class="footer__title_second">Создайте NFT с нами</h4>
+              </div>
+            </div>
+            <div class="company col-md-4">
+              <h3 class="footer__title">Компания</h3>
+              <div class="footer__nft__info__list">
+                <h4 class="footer__title_second">О нас</h4>
+                <h4 class="footer__title_second">Отправить запрос</h4>
+              </div>
+            </div>
+            <div class="other col-md-4">
+              <h3 class="footer__title">Другое</h3>
+              <div class="footer__nft__info__list">
+                <h4 class="footer__title_second">Условия использования</h4>
+                <h4 class="footer__title_second">
+                  Политика конфиденциальности
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="footer__soceity">
+            <a href="#"><img src="./icons/twiter.png" alt="twiter link" /></a>
+            <a href="#"><img src="./icons/vk.png" alt="twiter link" /></a>
+          </div>
+          <div class="footer__img">
+            <img src="./img/footeStarr.png" alt="footer star" />
+          </div>
+          <div class="footer__copyright">@ tnft.ru Company, Inc</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

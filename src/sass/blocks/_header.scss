@@ -1,0 +1,17 @@
+.header {
+  margin-top: 18px;
+}
+.header__search {
+  input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 57.595px;
+    padding-left: 44px;
+    outline: none;
+  }
+}
+
+.header__search__input {
+  background: url('../../icons/searc.svg') no-repeat scroll 20px 11px;
+}
